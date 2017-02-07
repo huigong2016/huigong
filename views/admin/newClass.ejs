@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>管理頁面</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/admin.css">
+    <script type="text/javascript" src="lib/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<section id="sidebar"> 
+  <div class="white-label">
+  </div> 
+  <div id="sidebar-nav">   
+    <ul>
+     <li><a href="/admin/post"></i>貼文管理</a></li>
+      <li class="active"><a href="/admin/classManager"></i>班級管理</a></li>
+      <li><a href="/admin/students">學生管理</a></li>
+      <li><a href="/admin/admin_chat">信箱</a></li>     
+    </ul>
+  </div>
+</section>
+<section id="content">
+<h1>建立班級</h1>
+  <div class="content">
+      <form action="/admin/classManager" method="POST">
+    <p><input type="text" name="name" placeholder="國一數學班"></p>
+    <p><input type="text" name="date" placeholder="禮拜三"></p>
+    <p><input type="text" name="time" placeholder="晚上六點到九點"></p>
+     <p><input type="text" name="teacher" placeholder="老師"></p>
+    <p> <button>建立班級</button></button></p>
+  </form>
+  </div>
+</section>
+
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

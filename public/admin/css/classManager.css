@@ -1,0 +1,28 @@
+.container {
+ 	width: 800px;
+ 	margin-top: 30px;
+ 	margin-left: 435px;
+ 	padding-bottom: 20px;
+ 	background: white;
+ 	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
+
+#btn-new {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*#newClass {*/
+/*	background-color: #fefefe;*/
+    /*margin: 5% auto;*/
+/*    padding: 20px;*/
+/*    border: 1px solid #888;*/
+    width: 67%; /* Could be more or less, depending on screen size */
+     display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+/*    left: 340px;*/
+    height: 40%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+
+/*}*/
